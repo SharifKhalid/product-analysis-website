@@ -13,6 +13,9 @@
 .div3 h1{
     color: darkviolet;
 }
+.div3{
+    height: 300px;
+}
 .image{
     width: 400px;
     height: 500px;
@@ -20,8 +23,11 @@
 
 .btn{
     width: 250px;
-    height: 40px;
+    height: 50px;
     font-size: larger;
     font-weight: bold;
-    color: indigo;
+    color: rgb(113, 4, 160);
+    margin-bottom: 5rem;
+    background-color: rgb(246, 239, 212);
+    border-radius: 2rem;
 }
