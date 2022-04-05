@@ -28,10 +28,10 @@ const reviews= [
    
     return (
         <div>
-            
             {
-                reviews.map(review => console.log(review))
+                reviews.map(review=>console.log(review))
             }
+            
         </div>
     );
 };
