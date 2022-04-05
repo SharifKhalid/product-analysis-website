@@ -1,0 +1,25 @@
+.home{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+.div1{
+    width: 50%;
+}
+.div1 h1{
+    color: darkviolet;
+}
+
+.image{
+    width: 400px;
+    height: 500px;
+}
+
+.btn{
+    width: 250px;
+    height: 40px;
+    font-size: larger;
+    font-weight: bold;
+    color: indigo;
+}
