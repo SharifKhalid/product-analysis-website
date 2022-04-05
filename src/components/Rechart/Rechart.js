@@ -34,39 +34,39 @@ const Rechart = () => {
 
     const data2 = [
         {
-            name: 'Page A',
-            uv: 4000,
-            pv: 2400,
+            month: 'January',
+            profit: 4000,
+            sell: 2400,
             amt: 2400,
         },
         {
-            name: 'Page B',
-            uv: 3000,
-            pv: 1398,
+            month: 'February',
+            profit: 3000,
+            sell: 1398,
             amt: 2210,
         },
         {
-            name: 'Page C',
-            uv: 2000,
-            pv: 9800,
+            month: 'Martch',
+            profit: 2000,
+            sell: 9800,
             amt: 2290,
         },
         {
-            name: 'Page D',
-            uv: 2780,
-            pv: 3908,
+            month: 'April',
+            profit: 2780,
+            sell: 3908,
             amt: 2000,
         },
         {
-            name: 'Page E',
-            uv: 1890,
-            pv: 4800,
+            month: 'May',
+            profit: 1890,
+            sell: 4800,
             amt: 2181,
         },
         {
-            name: 'Page F',
-            uv: 2390,
-            pv: 3800,
+            month: 'June',
+            profit: 2390,
+            sell: 3800,
             amt: 2500,
         },
     ];
@@ -90,12 +90,12 @@ const Rechart = () => {
                     }}
                 >
                     <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis dataKey="name" />
+                    <XAxis dataKey="month" />
                     <YAxis />
                     <Tooltip />
                     <Legend />
-                    <Bar dataKey="pv" stackId="a" fill="#8884d8" />
-                    <Bar dataKey="uv" stackId="a" fill="#82ca9d" />
+                    <Bar dataKey="sell" stackId="a" fill="#8884d8" />
+                    <Bar dataKey="profit" stackId="a" fill="#82ca9d" />
                 </BarChart>
             </div>
         </div>
