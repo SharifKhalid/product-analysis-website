@@ -1,0 +1,11 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bold;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    
+}
