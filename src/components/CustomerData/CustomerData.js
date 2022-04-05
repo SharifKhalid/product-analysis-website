@@ -1,35 +1,21 @@
 import React, { useEffect, useState } from 'react';
+import Reviews from '../Reviews/Reviews';
 
 
 const CustomerData = () => {
-//     const [reviews, setReviews]=useState([]);
+    const [reviews, setReviews]=useState([]);
 
-//     useEffect( ()=>{
-//         fetch('customerReview.json')
-//         .then(res => res.json())
-//         .then(data=> setReviews(data))
-//     },[])
+    useEffect( ()=>{
+        fetch('customerReview.json')
+        .then(res => res.json())
+        .then(data=> setReviews(data))
+    },[])
 
-const reviews= [
-    {
-        name: "Liakot Molla",
-        review:"This product is vary good",  
-    },
-    {
-        name: "Kamal Uddin",
-        review:"This product is vary good",   
-    },
-    {
-        name: "Prince Onik",
-        review:"This product is vary good",   
-    }
-    
-]
    
     return (
         <div>
             {
-                reviews.map(review=>console.log(review))
+                reviews.map(review=> <Reviews review={review}></Reviews>)
             }
             
         </div>

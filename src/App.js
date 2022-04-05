@@ -10,11 +10,13 @@ import About from './components/About/About';
 import CustomerData from './components/CustomerData/CustomerData';
 
 
+
 function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
       
+      <CustomerData></CustomerData>
       <Routes>
         <Route path='/' element={<Home></Home> }></Route>
         <Route path='/reviews' element={<Reviews></Reviews>}></Route>
